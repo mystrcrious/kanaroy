@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Mynerve", serif;
+    background-image: url(foto/back\ all.jpg);
+    color: #987a6c;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.back {
+    position: fixed;
+    top: 50px;
+    left: 520px;
+}
+
+#back {
+    width: 300px;
+    height: 550px;
+}
+
+.foto1 {
+    position: absolute;
+    top: 150px;
+    left: 660px;
+}
+
+#foto1 {
+    width: 150px;
+}
+
+.ribbon {
+    position: fixed;
+    top: 20px;
+    left: 610px;
+}
+
+#ribbon {
+    width: 150px;
+}
+
+.foto2 {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+#foto2 {
+    width: 300px;
+}
+
+.button {
+    position: fixed;
+    top: 500px;
+    left: 640px;
+    filter: drop-shadow(0 0 10px #a96a6b);
+    cursor: pointer;
+}
+
+#button {
+    width: 100px;
+}
+
+.text1 {
+    position: absolute;
+    top: 130px;
+    left: 520px;
+    font-size: 11px;
+}
+
+.text2 {
+    position: absolute;
+    top: 330px;
+    left: 680px;
+    font-size: 11px;
+}
+
+@media screen and (max-width: 500px) {
+    .back {
+        top: 100px;
+        left: 30px;
+    }
+    .ribbon {
+        top: 60px;
+        left: 120px;
+    }
+    .foto1 {
+        top: 210px;
+        left: 165px;
+    }
+    .foto2 {
+        top: 320px;
+        left: -100px;
+    }
+    .button {
+        top: 520px;
+        left: 130px;
+    }
+    .text1 {
+        top: 180px;
+        left: 50px;
+        font-size: 9px;
+    }
+    .text2 {
+        top: 350px;
+        left: 190px;
+        font-size: 10px;
+    }
+}

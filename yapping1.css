@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Mrs Saint Delafield", serif;
+    background-image: url(foto/back\ all.jpg);
+    color: #c1ab97;
+}
+
+.awalan {
+    position: absolute;
+    font-size: 20px;
+    top: 60px;
+    left: 620px;
+    z-index: 1;
+}
+
+.confession {
+    position: absolute;
+    font-size: 25px;
+    top: 310px;
+    left: 740px;
+    z-index: 1;
+}
+
+.text1 {
+    font-family: "Mynerve", serif;
+    font-size: 11px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    z-index: 1;
+}
+
+.text2 {
+    font-family: "Mynerve", serif;
+    font-size: 11px;
+    position: absolute;
+    top: 350px;
+    left: 570px;
+    z-index: 1;
+}
+
+.text3 {
+    font-family: "Mynerve", serif;
+    font-size: 11px;
+    position: absolute;
+    top: 420px;
+    left: 575px;
+    z-index: 1; 
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.renda {
+    position: fixed;
+    bottom: 410px;
+    left: 0px;
+}
+
+.rendabwh {
+    position: fixed;
+    top: 415px;
+    left: 0px;
+}
+
+.back {
+    position: fixed;
+    top: 50px;
+    left: 520px;
+}
+
+#dynamicimage {
+    width: 300px;
+    height: 550px;
+}
+
+.first {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+#one {
+    width: 200px;
+}
+
+.sec {
+    position: absolute;
+    top: 360px;
+    left: 710px;
+}
+
+#two {
+    width: 180px;
+}
+
+.button {
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    filter: drop-shadow(0 0 10px #a96a6b);
+    cursor: pointer;
+}
+
+#button {
+    width: 100px;
+}
+
+@media screen and (max-width:500px) {
+    .back {
+        top: 100px;
+        left: 30px;
+    }
+    .first {
+        top: 165px;
+        left: -10px;
+    }
+    .sec {
+        top: 380px;
+        left: 170px;
+    }
+    .button {
+        top: 540px;
+        left: 110px;
+    }
+    .awalan {
+        top: 90px;
+        left: 100px;
+    }
+    .confession {
+        top: 330px;
+        left: 200px;
+    }
+    .text1 {
+        top: 190px;
+        left: 190px;
+    }
+    .text2 {
+        top: 380px;
+        left: 50px;
+    }
+    .text3 {
+        top: 450px;
+        left: 55px;
+    }
+    .renda {
+        bottom: 700px;
+    }
+    .rendabwh {
+        top: 700px;
+    }
+}
