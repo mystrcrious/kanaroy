@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Mynerve", serif;
+    background-image: url(foto/back\ all.jpg);
+    color: #987a6c;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.back {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+}
+
+#back {
+    width: 300px;
+    height: 550px;
+}
+
+.cake {
+    position: absolute;
+    top: 220px;
+    left: 670px;
+}
+
+#cake {
+    width: 120px;
+}
+
+.foto2 {
+    position: absolute;
+    top: 340px;
+    left: 480px;
+}
+
+#foto2 {
+    width: 200px;
+}
+
+.button {
+    position: fixed;
+    top: 520px;
+    left: 630px;
+    filter: drop-shadow(0 0 10px #a96a6b);
+    cursor: pointer;
+}
+
+#button {
+    width: 60px;
+}
+
+.hbd {
+    font-family: "Great Vibes", serif;
+    font-size: 30px;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+    z-index: 1px;
+}
+
+.tgl {
+    font-family: "Great Vibes", serif;
+    position: absolute;
+    top: 180px;
+    left: 630px;
+}
+
+.text1 {
+    font-family: "Mrs Saint Delafield", serif;
+    position: absolute;
+    top: 210px;
+    left: 520px;
+    font-size: 16px;
+}
+
+.text2 {
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .back {
+        top: 100px;
+        left: 30px;
+    }
+    .cake {
+        top: 270px;
+        left: 200px;
+    }
+    .foto2 {
+        top: 400px;
+        left: 0px;
+    }
+    .button {
+        top: 570px;
+        left: 160px;
+    }
+    .hbd {
+        top: 150px;
+        left: 30px;
+    }
+    .tgl {
+        top: 220px;
+        left: 155px;
+    }
+    .text1 {
+        top: 260px;
+        left: 50px;
+    }
+    .text2 {
+        top: 410px;
+        left: 180px;
+    }
+}
