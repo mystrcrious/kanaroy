@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: "Mynerve", serif;
     background-image: url(foto/back\ all.jpg);
-    color: #987a6c;
+    color: #c1ab97;
 }
 
 .container {
@@ -110,6 +110,6 @@ body {
     .text2 {
         top: 350px;
         left: 190px;
-        font-size: 10px;
+        font-size: 11px;
     }
 }
