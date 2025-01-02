@@ -32,7 +32,7 @@ body {
 }
 
 #foto1 {
-    width: 150px;
+    width: 160px;
 }
 
 .ribbon {
@@ -52,7 +52,7 @@ body {
 }
 
 #foto2 {
-    width: 300px;
+    width: 150px;
 }
 
 .button {
@@ -72,6 +72,7 @@ body {
     top: 130px;
     left: 520px;
     font-size: 11px;
+    text-align: left;
 }
 
 .text2 {
@@ -79,6 +80,7 @@ body {
     top: 330px;
     left: 680px;
     font-size: 11px;
+    text-align: right;
 }
 
 @media screen and (max-width: 500px) {
@@ -91,12 +93,12 @@ body {
         left: 120px;
     }
     .foto1 {
-        top: 210px;
-        left: 165px;
+        top: 200px;
+        left: 155px;
     }
     .foto2 {
-        top: 320px;
-        left: -100px;
+        top: 340px;
+        left: 40px;
     }
     .button {
         top: 520px;
@@ -108,8 +110,8 @@ body {
         font-size: 9px;
     }
     .text2 {
-        top: 350px;
-        left: 190px;
-        font-size: 11px;
+        top: 330px;
+        left: 198px;
+        font-size: 10px;
     }
 }

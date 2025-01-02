@@ -80,6 +80,7 @@ body {
     top: 210px;
     left: 520px;
     font-size: 16px;
+    color: #c1ab97;
 }
 
 .text2 {
@@ -87,6 +88,7 @@ body {
     top: 350px;
     left: 650px;
     font-size: 10px;
+    color: #c1ab97;
 }
 
 @media screen and (max-width: 500px) {
@@ -119,7 +121,8 @@ body {
         left: 50px;
     }
     .text2 {
-        top: 410px;
-        left: 180px;
+        top: 390px;
+        left: 170px;
+        font-size: 11px;
     }
 }

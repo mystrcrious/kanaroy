@@ -72,6 +72,7 @@ body {
     top: 130px;
     left: 670px;
     font-size: 11px;
+    text-align: right;
 }
 
 .text2 {
@@ -95,7 +96,7 @@ body {
         left: 50px;
     }
     .foto2 {
-        top: 320px;
+        top: 330px;
         left: 180px;
     }
     .button {
@@ -104,12 +105,12 @@ body {
     }
     .text1 {
         top: 170px;
-        left: 180px;
-        font-size: 11px;
+        left: 65px;
+        font-size: 10px;
     }
     .text2 {
         top: 330px;
         left: 55px;
-        font-size: 12px;
+        font-size: 10px;
     }
 }

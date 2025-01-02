@@ -140,14 +140,17 @@ body {
     .text1 {
         top: 190px;
         left: 190px;
+        font-size: 10px;
     }
     .text2 {
-        top: 380px;
+        top: 370px;
         left: 50px;
+        font-size: 10px;
     }
     .text3 {
-        top: 450px;
-        left: 55px;
+        top: 460px;
+        left: 50px;
+        font-size: 10px;
     }
     .renda {
         bottom: 700px;

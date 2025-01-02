@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Alex Brush", serif;
+    background-image: url(foto/back\ all.jpg);
+    color: #4b2c17;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.foto1 {
+    position: absolute;
+    top: 130px;
+    left: 650px;
+}
+
+#foto1 {
+    width: 200px;
+}
+
+.ribbon {
+    position: fixed;
+    top: 20px;
+    left: 610px;
+}
+
+#ribbon {
+    width: 150px;
+}
+
+.foto2 {
+    position: absolute;
+    top: 300px;
+    left: 680px;
+}
+
+#foto2 {
+    width: 200px;
+}
+
+.button {
+    position: fixed;
+    top: 480px;
+    left: 710px;
+    filter: drop-shadow(0 0 10px #a96a6b);
+    cursor: pointer;
+}
+
+#button1 {
+    width: 80px;
+}
+
+.text1 {
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    font-size: 20px;
+}
+
+.text2 {
+    position: absolute;
+    top: 550px;
+    left: 720px;
+    font-family: "Mynerve", serif;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .foto1 {
+        top: 150px;
+        left: 85px;
+    }
+    .button {
+        top: 530px;
+        left: 140px;
+    }
+    .text1 {
+        top: 320px;
+        left: 115px;
+        font-size: 20px;
+    }
+    .text2 {
+        top: 600px;
+        left: 145px;
+        font-size: 13px;
+    }
+}
